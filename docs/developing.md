@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 import Tabs from '@theme/Tabs';
@@ -9,7 +9,11 @@ import { logoIonic } from 'ionicons/icons';
 import { defineCustomElement } from 'ionicons/components/ion-icon.js';
 defineCustomElement();
 
-# Basic Usage
+# Developing
+
+TODO Developing
+
+## Basic Usage
 
 <ion-icon icon={logoIonic}></ion-icon>
 
@@ -96,3 +100,13 @@ export default Example;
 ```
 </TabItem>
 </Tabs>
+
+## Custom Icons
+
+## Variants
+
+## Size
+
+## Color
+
+## Stroke Weight

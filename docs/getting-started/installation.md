@@ -2,6 +2,9 @@
 sidebar_position: 2
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Installation
 
 ## Package Manager
@@ -10,17 +13,22 @@ sidebar_position: 2
 If you are using Ionic Framework, Ionicons is packaged by default, so no installation is necessary. The steps below show how to use Ionicons without Ionic Framework.
 :::
 
-To install `ionicons` and save it in your `package.json` dependencies, run the command below using **npm**:
+The recommended way to install `ionicons` is to use a package manager.
+
+<Tabs>
+<TabItem value="npm" label="npm">
 
 ```shell
 npm install ionicons
 ```
-
-or **yarn**:
+</TabItem>
+<TabItem value="yarn" label="Yarn">
 
 ```shell
 yarn add ionicons
 ```
+</TabItem>
+</Tabs>
 
 ## CDN
 

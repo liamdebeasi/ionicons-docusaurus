@@ -20,6 +20,12 @@ import BasicUsage from '@site/static/usage/basic-usage.md';
 
 ## Variants
 
+Each app icon in Ionicons has a `filled`, `outline`, and `sharp` variant. These different variants are provided to make your app feel native to a variety of platforms. The filled variant uses the default name without a suffix. Note: Logo icons do not have outline or sharp variants.
+
+import Variants from '@site/static/usage/variants.md';
+
+<Variants />
+
 ## Size
 
 ## Color

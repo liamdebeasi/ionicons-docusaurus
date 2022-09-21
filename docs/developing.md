@@ -24,4 +24,10 @@ import BasicUsage from '@site/static/usage/basic-usage.md';
 
 ## Color
 
+Specify the icon color by applying the `color` CSS property on the `ion-icon` component.
+
+import Color from '@site/static/usage/color.md';
+
+<Color />
+
 ## Stroke Weight

@@ -10,7 +10,7 @@ import { logoIonic } from 'ionicons/icons';
 <Tabs>
 <TabItem value="angular" label="Angular">
 
-```html
+```html title="example.component.html"
 <ion-icon size="small" name="logo-ionic"></ion-icon>
 <ion-icon size="large" name="logo-ionic"></ion-icon>
 ```
@@ -18,7 +18,7 @@ import { logoIonic } from 'ionicons/icons';
 
 <TabItem value="javascript" label="JavaScript">
 
-```html
+```html title="index.html"
 <ion-icon size="small" name="logo-ionic"></ion-icon>
 <ion-icon size="large" name="logo-ionic"></ion-icon>
 ```
@@ -26,7 +26,9 @@ import { logoIonic } from 'ionicons/icons';
 
 <TabItem value="react" label="React">
 
-```tsx title="With Ionic Framework"
+## With Ionic Framework
+
+```tsx title="example.tsx"
 import { IonIcon } from '@ionic/react';
 import { logoIonic } from 'ionicons/icons';
 
@@ -40,7 +42,9 @@ const Example = () => {
 export default Example;
 ```
 
-```tsx title="Without Ionic Framework"
+## Without Ionic Framework
+
+```tsx title="example.tsx"
 import { defineCustomElement as defineIonIcon } from 'ionicons';
 import { logoIonic } from 'ionicons/icons';
 
@@ -59,7 +63,9 @@ export default Example;
 
 <TabItem value="vue" label="Vue">
 
-```html title="With Ionic Framework"
+## With Ionic Framework
+
+```html title="example.vue"
 <template>
   <ion-icon size="small" :icon="logoIonic"></ion-icon>
   <ion-icon size="large" :icon="logoIonic"></ion-icon>
@@ -79,7 +85,9 @@ export default Example;
 </script>
 ```
 
-```html title="Without Ionic Framework"
+## Without Ionic Framework
+
+```html title="example.vue"
 <template>
   <ion-icon size="small" :icon="logoIonic"></ion-icon>
   <ion-icon size="large" :icon="logoIonic"></ion-icon>

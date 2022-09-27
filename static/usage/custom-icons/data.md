@@ -5,19 +5,19 @@ import TabItem from '@theme/TabItem';
 <TabItem value="angular" label="Angular">
 
 ```html title="example.component.html"
-<ion-icon [icon]="customIcon"></ion-icon>
+<ion-icon [icon]="svgData"></ion-icon>
 ```
 
 ```typescript title="example.component.ts"
 import { Component } from '@angular/core';
-import svgData from '/path/to/external/file.svg';
+import customIcon from '/path/to/external/file.svg';
 
 @Component({
   selector: 'app-example',
   templateUrl: 'example.component.html',
 })
 export class ExampleComponent {
-  public customIcon = svgData;
+  public svgData = customIcon;
   constructor() {}
 }
 

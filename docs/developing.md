@@ -7,8 +7,6 @@ defineCustomElement();
 
 # Developing
 
-TODO Developing
-
 ## Basic Usage
 
 import BasicUsage from '@site/static/usage/basic-usage.md';

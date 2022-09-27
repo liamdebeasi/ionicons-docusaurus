@@ -29,4 +29,10 @@ import Size from '@site/static/usage/size.md';
 
 ## Color
 
+Specify the icon color by applying the `color` CSS property on the `ion-icon` component.
+
+import Color from '@site/static/usage/color.md';
+
+<Color />
+
 ## Stroke Weight

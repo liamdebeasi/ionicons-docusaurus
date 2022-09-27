@@ -15,6 +15,22 @@ import BasicUsage from '@site/static/usage/basic-usage.md';
 
 ## Custom Icons
 
+### With a URL
+
+To load a custom SVG from a URL, pass the URL to the `icon` property. Make sure that the file is accessible from the webpage that is making the request. For security reasons, Ionicons does not allow scripts or events within the custom SVG element.
+
+import CustomURL from '@site/static/usage/custom-icons/url.md';
+
+<CustomURL />
+
+### With SVG Data
+
+Developers can also pass the raw SVG data to the `icon` property. For security reasons, Ionicons does not allow scripts or events within the custom SVG element.
+
+import CustomData from '@site/static/usage/custom-icons/data.md';
+
+<CustomData />
+
 ## Variants
 
 Each app icon in Ionicons has a `filled`, `outline`, and `sharp` variant. These different variants are provided to make your app feel native to a variety of platforms. The filled variant uses the default name without a suffix. Note: Logo icons do not have outline or sharp variants.

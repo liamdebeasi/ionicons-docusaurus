@@ -19,7 +19,7 @@ import BasicUsage from '@site/static/usage/basic-usage.md';
 
 ### With a URL
 
-To use a custom SVG from a url, pass the URL to the `icon` property. Make sure that the file accessible from the webpage that is making the request. For security reasons, Ionicons does not allow scripts or events within the custom SVG element.
+To load a custom SVG from a url, pass the URL to the `icon` property. Make sure that the file accessible from the webpage that is making the request. For security reasons, Ionicons does not allow scripts or events within the custom SVG element.
 
 import CustomURL from '@site/static/usage/custom-icons/url.md';
 

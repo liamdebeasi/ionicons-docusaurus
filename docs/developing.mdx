@@ -3,13 +3,13 @@ sidebar_position: 2
 ---
 
 import { defineCustomElement } from 'ionicons/components/ion-icon.js';
-defineCustomElement();
+//defineCustomElement()
 
 # Developing
 
 ## Basic Usage
 
-import BasicUsage from '@site/static/usage/basic-usage.md';
+import BasicUsage from '@site/static/usage/basic-usage.mdx';
 
 <BasicUsage />
 
@@ -19,7 +19,7 @@ import BasicUsage from '@site/static/usage/basic-usage.md';
 
 To load a custom SVG from a URL, pass the URL to the `icon` property. Make sure that the file is accessible from the webpage that is making the request. For security reasons, Ionicons does not allow scripts or events within the custom SVG element.
 
-import CustomURL from '@site/static/usage/custom-icons/url.md';
+import CustomURL from '@site/static/usage/custom-icons/url.mdx';
 
 <CustomURL />
 
@@ -27,7 +27,7 @@ import CustomURL from '@site/static/usage/custom-icons/url.md';
 
 Developers can also pass the raw SVG data to the `icon` property. For security reasons, Ionicons does not allow scripts or events within the custom SVG element.
 
-import CustomData from '@site/static/usage/custom-icons/data.md';
+import CustomData from '@site/static/usage/custom-icons/data.mdx';
 
 <CustomData />
 
@@ -35,7 +35,7 @@ import CustomData from '@site/static/usage/custom-icons/data.md';
 
 Each app icon in Ionicons has a `filled`, `outline`, and `sharp` variant. These different variants are provided to make your app feel native to a variety of platforms. The filled variant uses the default name without a suffix. Note: Logo icons do not have outline or sharp variants.
 
-import Variants from '@site/static/usage/variants.md';
+import Variants from '@site/static/usage/variants.mdx';
 
 <Variants />
 
@@ -43,7 +43,7 @@ import Variants from '@site/static/usage/variants.md';
 
 To specify the icon size, use the `size` property for pre-defined icon sizes.
 
-import Size from '@site/static/usage/size.md';
+import Size from '@site/static/usage/size.mdx';
 
 <Size />
 
@@ -51,7 +51,7 @@ import Size from '@site/static/usage/size.md';
 
 Specify the icon color by applying the `color` CSS property on the `ion-icon` component.
 
-import Color from '@site/static/usage/color.md';
+import Color from '@site/static/usage/color.mdx';
 
 <Color />
 
@@ -59,6 +59,6 @@ import Color from '@site/static/usage/color.md';
 
 When using an `outline` icon variant it is possible to adjust the stroke width, for improved visual balance relative to the icon's size or relative to the weight of adjacent text. You can set a specific size by applying the `--ionicon-stroke-width` CSS custom property to the ion-icon component. The default value is `32px`.
 
-import StrokeWidth from '@site/static/usage/stroke-width.md';
+import StrokeWidth from '@site/static/usage/stroke-width.mdx';
 
 <StrokeWidth />
